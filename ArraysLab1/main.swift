@@ -180,7 +180,7 @@ print("***PROBLEM 2.0 : FITNESS TRACKING")
  */
 //Print all three of the arrays to make sure it outputs in the console.
 
-var walkingChallenges : [String] = ["walking twice a day "]
+var walkingChallenges : [String] = ["walking twice a day " , "walking 4 times a week" , " walk for vccc30 minutes"]
 var runningChallenges : [String] = ["running or jogging for 15 minutes" ]
 var liftingChallenges : [String] = ["lift up and down more than 5 pounds"]
 print(walkingChallenges)
@@ -194,7 +194,10 @@ print("\n")
 print("PROBLEM 2.1 : FITNESS TRACKING")
 // In your app you want to show all of these lists on the same screen grouped into sections. Create a challenges array that holds (assigned the value) each of the lists you have created (it will be an array of arrays). Using the new challenges array, print the first element. Remember what number the first element it. Hint: it's alway minus 1.
 
-var challenges : [String] = 
+var challenges = [walkingChallenges  , runningChallenges , liftingChallenges]
+
+
+
 
 print("\n")
 print("***PROBLEM 2.2 : PRINTING FITNESS TRACKING")
@@ -212,7 +215,8 @@ print("***PROBLEM 2.2 : PRINTING FITNESS TRACKING")
 print("***PROBLEM 2.3 : REMOVING CHALLENGES")
 // All of the challenges will reset at the end of the month. Use the removeAll to remove everything from challenges. Print challenges.
 
- 
+//challenges.removeAll
+//print(challenges)
  
  
  print("\n")
